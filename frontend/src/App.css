@@ -1,0 +1,195 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f0f4f8; /* Lighter background for a clean look */
+  margin: 0; 
+  padding: 0; 
+  color: #333; 
+} 
+
+.title { 
+  text-align: center; 
+  margin-top: 20px; 
+  color: #2c3e50; /* Darker shade for title */
+} 
+
+.student-table { 
+  width: 80%; 
+  margin: 20px auto; 
+  border-collapse: collapse; 
+  background-color: #ffffff; /* White background for table */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+.student-table th, 
+.student-table td { 
+  padding: 10px; 
+  border: 1px solid #e0e0e0; /* Light border color */
+  text-align: left; 
+} 
+
+.student-table th { 
+  background-color: #ecf0f1; /* Light grey background for headers */
+  font-weight: bold; 
+  color: #34495e; /* Darker text color for better readability */
+} 
+
+.student-table tr:nth-child(even) { 
+  background-color: #f9fafb; /* Very light grey for alternating rows */
+} 
+
+.student-table tr:hover { 
+  background-color: #e9ecef; /* Slightly darker grey for hover effect */
+} 
+
+.action-btn { 
+  background: none; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 1.2em; 
+  margin: 0 5px; 
+  padding: 5px; 
+  transition: color 0.2s ease-in-out; 
+  border-radius: 5px; 
+} 
+
+.action-btn.view { 
+  color: #3498db; /* Blue for view button */
+  background-color: #e1f5fe; /* Light blue background */
+} 
+
+.action-btn.edit { 
+  color: #ffffff; 
+  background-color: #2ecc71; /* Green for edit button */
+} 
+
+.action-btn.delete { 
+  color: #ffffff; 
+  background-color: #e74c3c; /* Red for delete button */
+} 
+
+.action-btn:hover { 
+  opacity: 0.8; 
+} 
+
+.add-button { 
+  display: block; 
+  width: 150px; 
+  margin: 20px auto; 
+  padding: 10px; 
+  background-color: #79c2d4; /* Green background */
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-align: center; 
+  transition: background-color 0.3s ease-in-out; 
+} 
+
+.add-button:hover { 
+  background-color: #27ae60; /* Darker green on hover */
+} 
+
+.student-detail-container { 
+  border: 1px solid #ddd; 
+  padding: 20px; 
+  margin-top: 20px; 
+  background-color: #ffffff; /* White background */
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto; 
+} 
+
+.detail-table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+} 
+
+.detail-table th, .detail-table td { 
+  border: 1px solid #e0e0e0; /* Light border color */
+  padding: 8px; 
+  text-align: left; 
+} 
+
+.detail-table th { 
+  background-color: #ecf0f1; /* Light grey background for headers */
+  font-weight: bold; 
+} 
+
+.close-btn { 
+  margin-top: 20px; 
+  background-color: #3498db; /* Blue background */
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+} 
+
+.close-btn:hover { 
+  background-color: #2980b9; /* Darker blue on hover */
+} 
+
+.edit-student-form { 
+  background-color: #ffffff; /* White background */
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  max-width: 500px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  position: relative; 
+} 
+
+.edit-student-form h2 { 
+  margin-bottom: 20px; 
+  font-size: 1.5em; 
+  text-align: center; 
+  color: #2c3e50; /* Darker shade for heading */
+} 
+
+.edit-student-form form { 
+  display: flex; 
+  flex-direction: column; 
+} 
+
+.edit-student-form label { 
+  margin-bottom: 10px; 
+  font-size: 1em; 
+} 
+
+.edit-student-form input { 
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  font-size: 1em; 
+} 
+
+.edit-student-form button { 
+  padding: 10px 20px; 
+  margin: 10px 0; 
+  border: none; 
+  border-radius: 4px; 
+  font-size: 1em; 
+  cursor: pointer; 
+} 
+
+.edit-student-form button[type="submit"] { 
+  background-color: #2ecc71; /* Green for submit button */
+  color: white; 
+} 
+
+.edit-student-form button[type="submit"]:hover { 
+  background-color: #27ae60; /* Darker green on hover */
+} 
+
+.edit-student-form button[type="button"] { 
+  background-color: #e74c3c; /* Red for cancel button */
+  color: white; 
+} 
+
+.edit-student-form button[type="button"]:hover { 
+  background-color: #c0392b; /* Darker red on hover */
+}
